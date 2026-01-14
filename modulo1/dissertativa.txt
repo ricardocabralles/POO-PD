@@ -1,0 +1,32 @@
+2 – No referido sistema de biblioteca o paradigma de programação mais adequado seria o de programação orientada a objetos, letra C.
+
+Embora seja possível o uso dos demais paradigmas citados (programação estruturada, imperativa e funcional). Nesse caso a interação entre objetos seria mais limitada e menos natural ou o foco estaria em algo diferente do que pretendemos. Sendo a programação orientada a objetos a mais adequada.
+
+3 –
+Classes do diagrama e tipos de propriedades:
+Pessoa:
+Nome:string
+Lista de livros: Livro[]}(array de objetos do tipo livro)
+Emprestimo:
+Data de retirada: Date
+Data de devolução: Date
+Livro: Livro
+Usuário: Usuario
+Usuario:
+Idade: int
+Histórico de empréstimos: Emprestimo[](array de objetos do tipo empréstimo
+Livro:
+Título: string
+Autor: Autor
+Gênero: string
+Autor:
+	Nacionalidade: string
+Relações
+1 Autor é 1 pessoa
+1 usuario é 1 pessoa
+1 Livro possui 1 Autor principal
+Cada Autor pode escrever N livros
+Cada Livro pode ser emprestado N vezes mas não pode estar em mais de 1 emprestimo por vez
+Cada Usuário pode realizar N empréstimo por vez
+Cada Empréstimo envolve pelo menos 1 Livro e apenas 1 Usuário.
+
